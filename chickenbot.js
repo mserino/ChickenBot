@@ -31,7 +31,7 @@ rtm.on(RTM_EVENTS.MESSAGE, function handleRtmMessage(message) {
     rtm.dataStore.getChannelGroupOrDMById(message.channel).name
   );
   console.log(message);
-  rtm.sendMessage('Cluck cluck...', message.channel);
+  // rtm.sendMessage('Cluck cluck...', message.channel);
 });
 
 rtm.on(RTM_EVENTS.IM_CREATED, function handleRtmMessage(message) {
