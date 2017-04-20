@@ -1,11 +1,3 @@
-// var ChickenBot = function () {
-//   this.log = function() {
-//     console.log('hello!');
-//   };
-// };
-//
-// exports.ChickenBot = new ChickenBot();
-
 var RtmClient = require('@slack/client').RtmClient;
 var CLIENT_EVENTS = require('@slack/client').CLIENT_EVENTS;
 var RTM_EVENTS = require('@slack/client').RTM_EVENTS;
@@ -40,6 +32,7 @@ rtm.on(RTM_EVENTS.IM_CREATED, function handleRtmMessage(message) {
     rtm.dataStore.getUserById(message.user).name,
     rtm.dataStore.getChannelGroupOrDMById(message.channel).name
   );
+  console.log(rtm.dataStore.getUserById(message.user));
 });
 
 rtm.start();
