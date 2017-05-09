@@ -19,7 +19,7 @@ chickenbot.on('channel_joined',function(bot,message) {
 //   // bot.reply(message, 'Hello yourself.');
 // });
 
-chickenbot.on('direct_message', function (bot, message) {
+chickenbot.on('direct_mention', function (bot, message) {
   const reply = decisions.checkChickenOn(message.text);
 
   bot.reply(message, reply);

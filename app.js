@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var url = require('url');
 var request = require('request');
+require('dotenv').config()
 
 var chickenBot = require('./scripts/chickenbot.js');
 

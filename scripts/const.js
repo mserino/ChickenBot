@@ -8,7 +8,11 @@ const ingredientCombinations = [
         "reaction": ":no_entry:"
     },
     {
-    	"ingredients": [":lemon:", ":curry:", ":burrito:"],
+      "ingredients": [":sushi:"],
+      "reaction": "Mmm, maybe"
+    },
+    {
+    	"ingredients": [":lemon:", ":curry:", ":burrito:", ":taco:", ":hamburger:"],
       "reaction": "I love this! :yellow_heart:"
     },
     {
@@ -16,7 +20,7 @@ const ingredientCombinations = [
       "reaction": "I prefer to be eaten by humans."
     },
     {
-      "ingredients": [":chicken:", ":hatching_chick:", ":hatched_chick:", ":baby_chick:"],
+      "ingredients": [":chicken:", ":hatching_chick:", ":hatched_chick:", ":baby_chick:", ":penguin:", ":bird:"],
       "reaction": "I'm not a cannibal :scream:"
     },
     {
@@ -38,6 +42,14 @@ const ingredientCombinations = [
     {
       "ingredients": [":thor:"],
       "reaction": ":heart_eyes:",
+    },
+    {
+      "ingredients": [":hankey:", ":poop:", ":shit:", ":ghost:"],
+      "reaction": ":unamused: ha. ha. very funny"
+    },
+    {
+      "ingredients": [":hotdog:"],
+      "reaction": "I'm not a pig! :pig:"
     }
 ];
 
