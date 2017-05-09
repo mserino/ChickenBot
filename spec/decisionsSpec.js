@@ -12,4 +12,8 @@ describe('Chickenbot', function() {
   it('can react badly if it doesn\'t like the ingredient', function() {
     expect(decisions.checkChickenOn(':spaghetti:')).toBe(':no_entry:');
   });
+
+  it('neutral reaction if it doesn\'t know the ingredient', function() {
+    expect(decisions.checkChickenOn(':something:')).toBe('I don\'t have a strong opinion about this.');
+  });
 });

@@ -11,7 +11,7 @@ const checkDecisions =  {
     if (mealCollection) {
       return mealCollection.reaction;
     } else {
-      return "I don't have a strong opinion about this";
+      return "I don't have a strong opinion about this.";
     }
   }
 }
