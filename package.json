@@ -12,6 +12,7 @@
   "dependencies": {
     "@slack/client": "^3.9.0",
     "body-parser": "^1.17.1",
+    "botkit": "^0.5.4",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
     "request": "^2.81.0"
