@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 var url = require('url');
 var request = require('request');
-// var decisions = require('./scripts/decisions');
 
 var chickenBot = require('./scripts/chickenbot.js');
 
@@ -18,5 +17,4 @@ app.get('/', function(req, res){
 
 app.listen(8001, function() {
   console.log('Node app is running on port', app.get('port'));
-  // console.log(decisions.checkChickenOn(':lemon:'));
 });
